@@ -1,0 +1,29 @@
+{
+ "event": "evtFech4000",
+ "xsd": "R-4099-evt4099FechamentoDirf-v2_01_02",
+ "config": {
+  "tpAmb": 2,
+  "verProc": "Meristes_1.0",
+  "eventoVersion": "2_01_02",
+  "serviceVersion": "1_00_00",
+  "contribuinte": {
+   "tpInsc": 1,
+   "nrInsc": "11222333000181",
+   "nmRazao": "Igreja Teste"
+  },
+  "transmissor": {
+   "tpInsc": 2,
+   "nrInsc": "12345678909"
+  }
+ },
+ "std": {
+  "perapur": "2027-01",
+  "iderespinf": {
+   "nmresp": "Contadora Teste",
+   "cpfresp": "12345678909",
+   "telefone": "44999990000",
+   "email": "contato@exemplo.com.br"
+  },
+  "fechret": "0"
+ }
+}

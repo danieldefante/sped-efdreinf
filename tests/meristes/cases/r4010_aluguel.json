@@ -1,0 +1,42 @@
+{
+ "event": "evtRetPF",
+ "xsd": "R-4010-evt4010PagtoBeneficiarioPF-v2_01_02",
+ "config": {
+  "tpAmb": 2,
+  "verProc": "Meristes_1.0",
+  "eventoVersion": "2_01_02",
+  "serviceVersion": "1_00_00",
+  "contribuinte": {
+   "tpInsc": 1,
+   "nrInsc": "11222333000181",
+   "nmRazao": "Igreja Teste"
+  },
+  "transmissor": {
+   "tpInsc": 2,
+   "nrInsc": "12345678909"
+  }
+ },
+ "std": {
+  "indretif": 1,
+  "perapur": "2027-01",
+  "tpinscestab": "1",
+  "nrinscestab": "11222333000181",
+  "idebenef": {
+   "cpfbenef": "98765432100",
+   "nmbenef": "Locador Teste"
+  },
+  "idepgto": [
+   {
+    "natrend": "13002",
+    "infopgto": [
+     {
+      "dtfg": "2027-01-10",
+      "vlrrendbruto": 3000.0,
+      "vlrrendtrib": 3000.0,
+      "vlrir": 41.84
+     }
+    ]
+   }
+  ]
+ }
+}
