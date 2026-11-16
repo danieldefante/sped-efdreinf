@@ -114,17 +114,18 @@ class EvtFech4000 extends Factory implements FactoryInterface
                 false
             );
             $this->node->appendChild($ideRespInf);
-            $infoFech = $this->dom->createElement("infoFech");
-            $this->dom->addChild(
-                $infoFech,
-                "fechRet",
-                $this->std->fechret,
-                true
-            );
-            $this->node->appendChild($infoFech);
-            $this->reinf->appendChild($this->node);
-            //$this->xml = $this->dom->saveXML($this->reinf);
-            $this->sign($this->evtTag);
         }
+        // ideRespInf é opcional (leiaute R-4099, 0-1): o fechamento e a assinatura saem com ou sem ele.
+        $infoFech = $this->dom->createElement("infoFech");
+        $this->dom->addChild(
+            $infoFech,
+            "fechRet",
+            $this->std->fechret,
+            true
+        );
+        $this->node->appendChild($infoFech);
+        $this->reinf->appendChild($this->node);
+        //$this->xml = $this->dom->saveXML($this->reinf);
+        $this->sign($this->evtTag);
     }
 }
