@@ -1,0 +1,50 @@
+{
+ "event": "evtRetPF",
+ "xsd": "R-4010-evt4010PagtoBeneficiarioPF-v2_01_02",
+ "config": {
+  "tpAmb": 2,
+  "verProc": "Meristes_1.0",
+  "eventoVersion": "2_01_02",
+  "serviceVersion": "1_00_00",
+  "contribuinte": {
+   "tpInsc": 1,
+   "nrInsc": "11222333000181",
+   "nmRazao": "Igreja Teste"
+  },
+  "transmissor": {
+   "tpInsc": 2,
+   "nrInsc": "12345678909"
+  }
+ },
+ "std": {
+  "indretif": 2,
+  "perapur": "2026-12",
+  "tpinscestab": "1",
+  "nrinscestab": "11222333000181",
+  "idebenef": {
+   "cpfbenef": "98765432100",
+   "nmbenef": "Locador Teste"
+  },
+  "idepgto": [
+   {
+    "natrend": "13002",
+    "infopgto": [
+     {
+      "dtfg": "2026-12-10",
+      "vlrrendbruto": 6000.0,
+      "vlrrendtrib": 5500.0,
+      "vlrir": 190.47,
+      "observ": "Condominio de 500,00 pago pelo locador excluido da base (Lei 7.739 art. 14 IV)",
+      "detded": [
+       {
+        "indtpdeducao": 8,
+        "vlrdeducao": 607.2
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "nrrecibo": "12345-01-4010-2612-12345"
+ }
+}

@@ -295,7 +295,7 @@ class EvtRetPF extends Factory implements FactoryInterface
                         $this->dom->addChild(
                             $detDed,
                             "vlrPatrocFunp",
-                            self::format($ded->vlrpatrocfunp),
+                            self::format($ded->vlrpatrocfunp ?? null),
                             false
                         );
                         

@@ -1,0 +1,24 @@
+{
+ "event": "evtExclusao",
+ "xsd": "R-9000-evtExclusao-v2_01_02",
+ "config": {
+  "tpAmb": 2,
+  "verProc": "Meristes_1.0",
+  "eventoVersion": "2_01_02",
+  "serviceVersion": "1_00_00",
+  "contribuinte": {
+   "tpInsc": 1,
+   "nrInsc": "11222333000181",
+   "nmRazao": "Igreja Teste"
+  },
+  "transmissor": {
+   "tpInsc": 2,
+   "nrInsc": "12345678909"
+  }
+ },
+ "std": {
+  "tpevento": "R-4010",
+  "nrrecevt": "12345-01-4010-2612-12345",
+  "perapur": "2026-12"
+ }
+}
