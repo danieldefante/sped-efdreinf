@@ -737,7 +737,7 @@ class Tools extends ToolsBase
             . "<envioLoteEventos>"
             . "<ideContribuinte>"
             . "<tpInsc>{$this->tpInsc}</tpInsc>"
-            . "<nrInsc>{$this->nrInsc}</nrInsc>"
+            . "<nrInsc>{$this->doc}</nrInsc>"
             . "</ideContribuinte>"
             . "<eventos>"
             . $xml
@@ -848,7 +848,7 @@ class Tools extends ToolsBase
             . "<envioLoteEventos>"
             . "<ideContribuinte>"
             . "<tpInsc>{$this->tpInsc}</tpInsc>"
-            . "<nrInsc>{$this->nrInsc}</nrInsc>"
+            . "<nrInsc>{$this->doc}</nrInsc>"
             . "</ideContribuinte>"
             . "<eventos>"
             . $xml
